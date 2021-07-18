@@ -22,8 +22,6 @@ int main()
     scanf("%d", &p);
 
     res = squareRoot(n, 0, n, p);
-    res = round(res*pow(10,p));
-    res = res/pow(10,p);
     printf("ans = %.*f",p , res);
 
     return 0;
